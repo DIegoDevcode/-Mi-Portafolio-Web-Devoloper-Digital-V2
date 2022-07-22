@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #191c32; 
+    color: white
+    font-family 'Ibarra Real Nova', serif;
+    
+
+}
+.wraper {
+    width: 100%;
+    height: 300%;
+    background-color: #191c32;
+    color: #fff;
+}
+
+.Menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.Menu li {
+    list-style: none;
+}
+
+.Menu a{
+    color: aqua;
+    text-decoration: none;
+    cursor: hover;
+}
+
+.barnav {
+    display: flex;
+    justify-content: space-between;
+}
+.Menu a :hover{
+background-color: cadetblue;
+}
