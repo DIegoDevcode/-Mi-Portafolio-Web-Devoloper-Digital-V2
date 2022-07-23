@@ -24,12 +24,8 @@ body{
     width: 16%;
     padding: 20px;
     justify-content: space-around;
-}
-
-.Menu li {
     list-style: none;
 }
-
 .Menu a{
     color: aqua;
     text-decoration: none;
@@ -66,9 +62,9 @@ color: #191c32;
     width: 300px;
 }
 
-.main-P {
-margin: 0 auto;
-min-height: 50%
+.Info-content{ 
+    margin: 0 auto;
+    height: auto;
 }
 
 .Sub-title {
