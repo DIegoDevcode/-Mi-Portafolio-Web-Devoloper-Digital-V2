@@ -62,9 +62,11 @@ color: #191c32;
     width: 300px;
 }
 
-.Info-content{ 
-    margin: 0 auto;
-    height: auto;
+.Info-content p{ 
+    margin: 100px;
+    height: 500px;
+    width: 100%;
+    background-color: red;
 }
 
 .Sub-title {
