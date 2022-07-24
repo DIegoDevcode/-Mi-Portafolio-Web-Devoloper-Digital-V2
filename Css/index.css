@@ -19,14 +19,14 @@ body{
     color: #fff;
 }
 
-.Menu {
+.menu {
     display: flex;
     width: 16%;
     padding: 20px;
     justify-content: space-around;
     list-style: none;
 }
-.Menu a{
+.menu a{
     color: aqua;
     text-decoration: none;
     cursor: hover;
@@ -37,44 +37,46 @@ body{
     display: flex;
     justify-content: space-between;
 }
-.Menu a:hover {
+.menu a:hover {
 background-color: #fff;
 color: #191c32;
 }
 
-.Title-description{
+.title-description{
     width: 100%;
     padding: 20px;
     font-size: 1.3rem;
 }
 
 .main {
-    margin:  0 auto;
+    margin:  auto;
     width: 95vh;
-    height: 80vh;
-    display: grid;
-    grid-template-columns: repeat(0,1fr);
-    align-items: center;
+    height: 90vh;
+    justify-content: space-around;
 }
 
 .main img {
     margin-left: -52vh;
-    width: 300px;
+    width: 200px;
 }
 
-.Info-content p{ 
+.info-content p{ 
+    display: grid;
+    padding-bottom: 10px;
     margin: 100px;
-    height: 500px;
+    height: 100px;
     width: 100%;
-    background-color: red;
+    text-align: start;
+    align-items: flex-end;
+    background-color: green;
 }
 
-.Sub-title {
+.sub-title {
     margin-left: -52vh;
     padding-right: 100%;
 }
 
-.Logo {
+.logo {
     padding: 20px  15px;
     height: auto;
 }
