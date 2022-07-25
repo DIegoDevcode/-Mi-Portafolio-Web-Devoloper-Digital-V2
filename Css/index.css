@@ -60,15 +60,13 @@ color: #191c32;
     width: 300px;
 }
 
-.info-content p{ 
-    display: grid;
+.parrafo{ 
     padding-bottom: 10px;
     margin: 100px;
     height: 100px;
     width: 100%;
-    text-align: start;
-    align-items: flex-end;
     background-color: green;
+    flex-direction: column;
 }
 
 .sub-title {
