@@ -1,3 +1,12 @@
+:root {
+    --NEGRO: #000000;
+    --LLAMA: #E44D26;
+    --NARANJADEHALLOWEEN:#F16529; 
+    --GRISBRILLANTE: #EBEBEB;
+    --BLANCO: #FFFFFF; 
+
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -52,7 +61,6 @@ color: #191c32;
     margin:  auto;
     width: 95vh;
     height: 90vh;
-    justify-content: space-around;
 }
 
 .main img {
@@ -62,16 +70,15 @@ color: #191c32;
 
 .info-content{ 
     display: grid;
-    grid-template-columns: 70px 1fr 1fr;
+    grid-template-columns: 10px auto 600px;
+    grid-auto-rows: auto;
     padding-bottom: 10px;
     margin: 10px;
     height: 100%;
     width: 100%;
     background-color: #191c32;
-    gap: 0px;
-    row-gap: 0px;
-    column-gap: 0px;
     box-sizing: inherit;
+    justify-items: end;
 }
 
 .sub-title{
@@ -83,5 +90,13 @@ color: #191c32;
 .logo {
     padding: 20px  15px;
     height: auto;
+}
+
+.fa-html {
+color:  var(--NEGRO);
+color: var(--LLAMA); 
+color: var(--NARANJADEHALLOWEEN);
+color: var(--GRISBRILLANTE);
+color: var(--BLANCO);
 }
 
