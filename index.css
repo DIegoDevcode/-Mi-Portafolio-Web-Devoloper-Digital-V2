@@ -57,7 +57,7 @@ body{
 .flex-info-content {
     display: grid;
     grid-template-columns: auto auto auto;
-    width: 60%;
+    width: 90%;
     padding: 10px;
     margin: 40px;
 }
@@ -70,7 +70,6 @@ body{
 .Tecnologie {
     margin: 40px;
     list-style: none;
-    text-align: center;
 }
 
 .fa-html5{
@@ -85,4 +84,8 @@ body{
 }
 .fa-react{
     background-color: rgb(30, 22, 195);
+}
+
+.subtitle-description{
+    
 }
