@@ -58,12 +58,10 @@ color: #191c32;
 }
 
 .main {
-    margin:  auto;
-    width: 95vh;
-    height: 90vh;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
 }
-
-
 
 .info-content{ 
     display: grid;
@@ -74,6 +72,7 @@ color: #191c32;
     align-items: center;
     justify-content: center;
 }
+
 .main img {
     margin: 30px;
     width: 50%;
