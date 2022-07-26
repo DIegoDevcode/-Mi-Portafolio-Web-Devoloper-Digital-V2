@@ -14,7 +14,7 @@
 }
 
 body{
-    background-color: #232a61; 
+    background-color: #235761; 
     color: white;
     font-family: 'Ibarra Real Nova', serif;
     font-size: 1.3rem;
@@ -45,6 +45,10 @@ body{
     padding: 10px 20px;
 }
 
+.description{
+    text-align: center;
+}
+
 .subtitle{
     font-size: 1.3rem;
     color: red;
@@ -66,8 +70,19 @@ body{
 .Tecnologie {
     margin: 40px;
     list-style: none;
+    text-align: center;
 }
 
 .fa-html5{
     background-color: #E44D26;
+}
+.fa-css3-alt{
+    background-color: 	#2965f1;
+}
+
+.fa-js {
+    background-color: rgb(98, 98, 20);
+}
+.fa-react{
+    background-color: rgb(30, 22, 195);
 }
