@@ -63,22 +63,27 @@ color: #191c32;
     height: 90vh;
 }
 
-.main img {
-    margin-left: -52vh;
-    width: 300px;
-    grid-column: 1/2;
 
-}
 
 .info-content{ 
     display: grid;
-    grid-template-columns: 50% 50%;
-    height: 55%;
+    grid-column: 50% 50%;
+    height: 100%;
+    display: flex;
+    Flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.info_text {
-    grid-column: 2/4;
-}
+.main img {
+    margin: 30px;
+    width: 50%;
+    grid-column: 1/2;
+}   
 
+.info_text {
+    grid-column: 2/3;
+    
+}
 .sub-title{
     margin-left: -52vh;
     padding-right: 100%;
