@@ -96,6 +96,7 @@ body{
     flex-direction: row;
     justify-content: flex-end;
     align-items: stretch;
+
 }
 
 .img-todomachine{
@@ -107,3 +108,10 @@ body{
 .proyects-description{
     order: 2;
 }
+
+.boton-code{
+box-sizing: 1px;
+background-color: lightblue;
+height: 50%;
+}
+
