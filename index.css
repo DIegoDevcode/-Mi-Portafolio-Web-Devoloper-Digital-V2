@@ -91,12 +91,18 @@ body{
     width: 100%;
 }
 
-.proyect-todoMachine{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: stretch;
+.proyect-title{
+    font-size: 1.1rem;
+    order: 2;
+}
 
+.proyect-todoMachine{
+    position: absolute;
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    order: 3;
 }
 
 .img-todomachine{
@@ -106,11 +112,18 @@ body{
     
 }
 .proyects-description{
-    order: 2;
+    order: 2;  
 }
 
 .boton-code{
-box-sizing: 1px;
-height: 50%;
+height: 100%;
+width: 250px;
+order: 2;
+font-size: 24px;
+padding: 14px 40px;
 }
 
+.fa-square-github{
+width: 100px;
+height: 350;
+}
