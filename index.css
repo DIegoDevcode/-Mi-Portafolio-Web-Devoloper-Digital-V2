@@ -26,6 +26,8 @@ body{
     padding: 10px 20px;
     width: 100%;
     height: 25%;
+    text-align: left;
+
 }
 
 .list{
@@ -121,22 +123,29 @@ body{
     order: 2;  
 }
 
-.boton-code{
+.button-code{
 height: 100%;
-width: 250px;
+width: 0%;
 order: 2;
 font-size: 24px;
 padding: 14px 40px;
 }
 
+.button-git{
+    border-radius: 12px;
+    width: 250px;
+
+}
+
 .fa-square-github{
-width: 100px;
-height: 350;
+/* width: 100px;
+height: 50%; */
 }
 
 
-.section-footer{
+.section-footer {
     height: 50%;
+    font-size: 1.1rem;
 }
 
 .redes a {
