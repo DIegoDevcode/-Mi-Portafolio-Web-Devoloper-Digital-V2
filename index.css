@@ -14,7 +14,7 @@
 }
 
 body{
-    background-color: #c14019; 
+    background-color: #392706f6; 
     color: white;
     font-family: 'Ibarra Real Nova', serif;
     font-size: 1.3rem;
@@ -23,21 +23,19 @@ body{
 
 }
 .wrapper{
-    padding: 30px 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: left;
+    padding: 10px 20px;
     width: 100%;
     height: 25%;
     background-color: rgb(42, 76, 10);
 }
 
 .list{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: stretch;
     list-style: none;
-    text-align: right;
     height: 120px;
-    vertical-align: text-top;
+    display: inline;
 }
 
 .list a {
@@ -48,7 +46,7 @@ body{
 }
 
 .description{
-    text-align: center;
+
 }
 
 .menu{
@@ -108,8 +106,8 @@ body{
 
 
 .img-todomachine{
-    width: 60%;
-    height: 100%;
+    width: 40%;
+    height: 400px;
     order: 1;
     
 }
@@ -134,22 +132,32 @@ padding: 14px 40px;
 }
 
 .button-git{
-    border-radius: 12px;
+    text-align: center;
+    border-radius: 0%;
+    width: 400px;
+    background-color: crimson;
+}
+
+.button-git a {
+    color: white;
+    text-decoration: none;
 }
 
 .button-proyect{
-
+    text-align: center;
+    border-radius: 0%;
+    width: 400px;
+    background-color: rgb(186, 207, 29);
 }
 
-.fa-square-github{
-/* width: 100px;
-height: 50%; */
+.button-proyect a {
+    color: white;
+    text-decoration: none;
 }
-
 
 .section-footer {
     height: 50%;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 
 .redes a {
