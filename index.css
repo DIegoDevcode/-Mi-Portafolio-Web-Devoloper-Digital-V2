@@ -157,6 +157,32 @@ padding: 14px 40px;
     text-decoration: none;
 }
 
+.proyect-title-google{
+    font-size: 1.7rem;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    text-align: left;
+}
+
+.img-google{
+    width: 40%;
+    height: 400px;
+    order: 1; 
+}
+
+.google-proyect{
+    display: flex; 
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: stretch;
+    order: 3; 
+}
+
+.google-proyect-description{
+    order: 2;  
+}
+
 .section-footer {
     height: 50%;
     font-size: 1.5rem;
