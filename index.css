@@ -160,7 +160,13 @@ padding: 14px 40px;
     font-size: 1.5rem;
 }
 
+.redes{
+    padding-right: 30px;
+    margin: auto;
+}
+
 .redes a {
     text-decoration: none;
-    color: greenyellow;
+    color: white;
+   
 }
