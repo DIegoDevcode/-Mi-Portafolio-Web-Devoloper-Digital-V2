@@ -17,7 +17,7 @@ body{
     background-color: #263726; 
     color: white;
     font-family: 'Ibarra Real Nova', serif;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     
     
 
@@ -88,19 +88,30 @@ body{
     list-style: none;
 }
 
+.fa-solid{
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    font-size: 1.1rem;
+}
+
 .fa-html5{
     background-color: #E44D26;
+    font-size: 45px;
 
 }
 .fa-css3-alt{
     background-color: 	#2965f1;
+    font-size: 45px;
 }
 
 .fa-js {
     background-color: #E4A126;
+    font-size: 45px;
 }
 .fa-react{
     background-color: #00D8FF;
+    font-size: 45px;
 }
 
 .subtitle-description{
@@ -146,7 +157,7 @@ padding: 14px 40px;
     text-align: center;
     border-radius: 0%;
     width: 400px;
-    background-color: crimson;
+    background-color: #6a040f;
     font-size: 1.2rem;
 }
 
@@ -243,6 +254,13 @@ padding: 14px 40px;
     text-decoration: none;
     color: white;
    
+}
+
+.fa-solid-redes{
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    font-size: 1.5rem;
 }
 
 .fa-github{
