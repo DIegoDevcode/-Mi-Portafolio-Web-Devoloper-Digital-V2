@@ -4,13 +4,12 @@
 3. [Installation](#installation)
 
 ### General Info
-Welcome! Here you will find additional information about this project:
-I create this portfolio with the intention of putting into practice my knowledge about HTML, CSS, and Javascript, the main objective of this portfolio is to show several functional projects in one place.
+Welcome to my website! a space that I have created in order to show all my projects in one place which I have created in order to put into practice my knowledge of HTML, CSS and Javascript.
 
 ## Technologies
 A list of technologies used within the project:
-- HTML (https://developer.mozilla.org/es/docs/Web/HTML)
+- HTML (https://developer.mozilla.org/es/docs/Web/HTML) 
 - CSS (https://developer.mozilla.org/es/docs/Web/CSS)
 - Javascript (https://developer.mozilla.org/es/docs/Web/JavaScript)
-Instalacion:
+## Installation
 Este proyecto no requiere la instalacion de ninguna dependencia para funcionar.
